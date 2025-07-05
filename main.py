@@ -6,9 +6,6 @@
 #   python-telegram-bot>=20.8
 #   Flask#
 # ▸ Автор: ты  +  ChatGPT.  Права твои 😉
-from keep_alive import keep_alive
-
-keep_alive()
 import os, json, threading
 from telegram import (Update, InlineKeyboardButton, InlineKeyboardMarkup,
                       InputMediaPhoto)
